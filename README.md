@@ -16,3 +16,4 @@ Frontend construído com HTML5, CSS3 e JavaScript (Vanilla), priorizando uma int
 Para testar a aplicação localmente:
 1. Faça o clone do repositório[cite: 2].
 2. Abra o arquivo `index.html` diretamente em qualquer navegador moderno (Chrome, Edge, Firefox) ou utilize a extensão "Live Server" no VS Code[cite: 2].
+**🔗 Acesso ao Projeto no ar:** [Clique aqui para acessar](https://tutuwkkq.github.io/fitcore-studio-dashboard/)

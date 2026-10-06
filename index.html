@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio FitCore - Sistema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>🏋️‍♂️ Studio FitCore</h1>
+        <div class="nav-buttons">
+            <button id="btn-dashboard" class="active">Visão Professor</button>
+            <button id="btn-aluno">Visão Aluno</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Visão do Professor / Dashboard -->
+        <section id="view-dashboard" class="view-section active">
+            <h2>Dashboard Gerencial - Equipa Marcos & Trainers</h2>
+            
+            <div class="metrics-container">
+                <div class="metric-card">
+                    <h3>Alunos Ativos</h3>
+                    <p class="metric-value">80</p>
+                </div>
+                <div class="metric-card">
+                    <h3>Taxa de Retenção</h3>
+                    <p class="metric-value">94%</p>
+                </div>
+                <div class="metric-card">
+                    <h3>Treinos Pendentes</h3>
+                    <p class="metric-value">5</p>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <h3>Criar Novo Treino (Substitui PDF/Papel)</h3>
+                <form id="form-treino">
+                    <input type="text" id="nome-aluno" placeholder="Nome do Aluno" required>
+                    <input type="text" id="exercicio" placeholder="Exercício (ex: Agachamento Livre)" required>
+                    <input type="text" id="series" placeholder="Séries x Repetições (ex: 4x10)" required>
+                    <button type="submit">Adicionar ao Plano</button>
+                </form>
+                <p id="msg-sucesso" class="hidden">Treino adicionado com sucesso!</p>
+            </div>
+        </section>
+
+        <!-- Visão do Aluno / Mobile App -->
+        <section id="view-aluno" class="view-section hidden">
+            <div class="mobile-mockup">
+                <div class="mobile-header">
+                    <h2>O Meu Treino de Hoje</h2>
+                    <p>Foco: Emagrecimento & Funcional</p>
+                </div>
+                
+                <ul class="workout-list" id="lista-treino-aluno">
+                    <li class="workout-item">
+                        <div class="workout-info">
+                            <strong>Agachamento Livre</strong>
+                            <span>4x10</span>
+                        </div>
+                        <div class="workout-actions">
+                            <input type="number" placeholder="Carga (kg)" class="carga-input">
+                            <button class="btn-video">📹 Vídeo</button>
+                            <input type="checkbox" class="check-done">
+                        </div>
+                    </li>
+                    <li class="workout-item">
+                        <div class="workout-info">
+                            <strong>Supino Reto</strong>
+                            <span>3x12</span>
+                        </div>
+                        <div class="workout-actions">
+                            <input type="number" placeholder="Carga (kg)" class="carga-input">
+                            <button class="btn-video">📹 Vídeo</button>
+                            <input type="checkbox" class="check-done">
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn-finalizar">Finalizar Treino</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

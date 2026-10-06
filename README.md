@@ -7,7 +7,10 @@ O FitCore cresceu de 15 para 80 alunos ativos. O processo manual com fichas de p
 A solução foi um **Dashboard (para professores) + App (para alunos)**. A plataforma elimina o papel, permite aos professores prescreverem treinos rapidamente e dá aos alunos acesso aos vídeos de execução e registro de cargas, fortalecendo o vínculo e a retenção[cite: 1].
 
 ## 3. Protótipos
-*(Adicione aqui a imagem/screenshot da sua tela index.html aberta no navegador)*[cite: 1, 2]
+<img width="1436" height="764" alt="image" src="https://github.com/user-attachments/assets/a408a6ce-2896-445b-a91a-7619ca348a7e" />
+<img width="1439" height="761" alt="image" src="https://github.com/user-attachments/assets/93f725be-efcc-49c4-9015-2b8977aebd65" />
+
+
 
 ## 4. Arquitetura Utilizada
 Frontend construído com HTML5, CSS3 e JavaScript (Vanilla), priorizando uma interface leve e responsiva sem a necessidade de builds complexas[cite: 1, 2].
